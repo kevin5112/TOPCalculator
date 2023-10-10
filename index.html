@@ -4,10 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <script src="./app.js"></script>
+    <script src="./app.js" defer></script>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="calculator">
+            <div class="user-input">
+                <p class="input-number">0</p>
+            </div>
+            <div class="numpad">
+                <div class="numbers">
+                    <button class="number" id="1">1</button>
+                    <button class="number" id="2">2</button>
+                    <button class="number" id="3">3</button>
+                    <button class="number" id="4">4</button>
+                    <button class="number" id="5">5</button>
+                    <button class="number" id="6">6</button>
+                    <button class="number" id="7">7</button>
+                    <button class="number" id="8">8</button>
+                    <button class="number" id="9">9</button>
+                    <button class="number" id="0">0</button>
+                </div>
+                <div class="operations">
+                    <button class="operation">*</button>
+                    <button class="operation">/</button>
+                    <button class="operation">-</button>
+                    <button class="operation">+</button>
+                    <button class="equalBtn">=</button>
+                </div>
+            </div>
+            <div class="clear">
+                <button class="clearBtn">Clear</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
